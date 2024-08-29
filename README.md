@@ -47,6 +47,6 @@ logout response code: 204
 $ run.sh
 CSRF token: 12fb2b7a-cfe9-4c32-9e2b-647ca7243700
 JWT token: eyJhbGciOiJIUzI1NiJ9.eyJlaWQiOiIzMzU2NDdiNi04YTUyLTRlY2ItYThjMS03ZWJhYmIxOTliZGEiLCJzZyI6W10sImV4cCI6MTcyNDkyMjU0MSwiYXV0aGVudGljYXRpb25NZXRob2QiOiJwYXNzd29yZCJ9.0OFtSPkk9nmObmOxngCjlTXMXxzdjvL99Q5oZ2Wmx9U
-F
+TTF
 Failure occurred - GET /api/authn/status returned "authenticated": false
 ```
