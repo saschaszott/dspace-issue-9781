@@ -30,6 +30,15 @@ the official DSpace Demo instance (https://demo.dspace.org). It executes the fol
 
 The program execution aborts immediately if the authentication status is `false`.
 
+To run the program against another DSpace instance (running DS 7 or 8) you'll need to
+modify the program variables listed below:
+
+Name of variable | Description
+---------------- | -----------
+`DS_API_URL`     | base URL of DSpace REST API (should end with `/server/api` - without trailing slash)
+`USERNAME`       | valid user name of eperson
+`PASSWORD`       | valid password of eperson
+
 ## Program output (first run - successful execution)
 
 ```sh
